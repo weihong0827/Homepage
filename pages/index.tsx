@@ -20,51 +20,55 @@ const Home: NextPage = () => {
     <Layout>
       <Container>
         <Box
-          borderRadius="lg"
+          borderRadius='lg'
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           p={3}
           my={6}
-          alignItems="center"
+          display={'flex'}
+          justifyContent='center'
         >
           {' '}
           Hello I&apos;m a aspiring full-stack developer in SUTD
         </Box>
-        <Box display={{ md: 'flex' }} className="nes-text is-primary">
+        <Box display={{ md: 'flex' }} className='nes-text is-primary'>
           <Box flexGrow={1}>
-            <Heading variant="page-title" as="h2">
+            <Heading variant='page-title' as='h2'>
               Qiu Weihong
             </Heading>
-            <p>Developer/Fulltime student/Photgrapher/Sport /PC enthusiast</p>
+            <p>
+              Developer/ Fulltime student/ Photgrapher/ Sport enthusiast/ PC
+              lover
+            </p>
           </Box>
           <Box
             flexShrink={0}
             mt={{ base: 4, md: 0 }}
             ml={{ md: 6 }}
-            textAlign="center"
+            textAlign='center'
           >
             <Box
-              borderColor="whiteAlpha.800"
+              borderColor='whiteAlpha.800'
               borderWidth={2}
-              borderStyle="solid"
+              borderStyle='solid'
               w={{ base: '200px', md: '100px' }}
               h={{ base: '200px', md: '100px' }}
-              display="inline-block"
-              borderRadius="full"
-              overflow="hidden"
+              display='inline-block'
+              borderRadius='full'
+              overflow='hidden'
             >
               <Image
                 width={'100%'}
                 height={'100%'}
-                layout="responsive"
-                objectFit="cover"
-                src="/images/weihong.jpg"
-                alt="Profile Image"
+                layout='responsive'
+                objectFit='cover'
+                src='/images/weihong.jpg'
+                alt='Profile Image'
               />
             </Box>
           </Box>
         </Box>
         <Section delay={0.1}>
-          <Heading as="h3" variant="section-title">
+          <Heading as='h3' variant='section-title'>
             About Me
           </Heading>
           <Paragraph>
@@ -78,7 +82,7 @@ const Home: NextPage = () => {
             He is currently working on a quiz platform for the school&apos;s
             physics department build on django rest framework and vue. He has
             recently worked on a webapp called{' '}
-            <NextLink href="/projects/sutdfolio">
+            <NextLink href='/projects/sutdfolio'>
               <Link>SUTDfolio</Link>
             </NextLink>{' '}
             for the SUTD students to demostrate the fantastic projects that they
@@ -88,14 +92,17 @@ const Home: NextPage = () => {
             He really enjoy software development because he can create really
             amazing features and products that impact people&apos;s life!
           </Paragraph>
-          <Box alignItems="center" my={4}>
-            <NextLink href="/projects">
+          <Box display={'flex'} justifyContent='space-evenly' my={4}>
+            <NextLink href='/posts'>
+              <Button rightIcon={<ChevronRightIcon />}>My Posts</Button>
+            </NextLink>
+            <NextLink href='/projects'>
               <Button rightIcon={<ChevronRightIcon />}>My Projects</Button>
             </NextLink>
           </Box>
         </Section>
         <Section delay={0.2}>
-          <Heading as="h3" variant="section-title">
+          <Heading as='h3' variant='section-title'>
             Bio
           </Heading>
           <BioSeciton>
@@ -123,12 +130,12 @@ const Home: NextPage = () => {
         </Section>
 
         <Section delay={0.3}>
-          <Heading as="h3" variant="section-title">
+          <Heading as='h3' variant='section-title'>
             I Love
           </Heading>
           <Paragraph>
             Badminton, Basketball,{' '}
-            <Link href="https://instagram.com/wh_snaps">Photography</Link>,
+            <Link href='https://instagram.com/wh_snaps'>Photography</Link>,
             Cooking, Coding
           </Paragraph>
         </Section>
