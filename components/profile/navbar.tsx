@@ -57,7 +57,7 @@ const Navbar = (props: { path: string } & BoxProps) => {
       <Container
         display='flex'
         p={2}
-        maxW='container.md'
+        maxW='container.lg'
         flexWrap='wrap'
         alignItems='center'
         justifyContent='space-between'

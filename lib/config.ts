@@ -50,6 +50,7 @@ export const isDev = environment === 'development'
 export const name: string = getSiteConfig('name')
 export const author: string = getSiteConfig('author')
 export const domain: string = getSiteConfig('domain')
+export const parentPages: string[] = getSiteConfig('parentPages')
 export const description: string = getSiteConfig('description', 'Notion Blog')
 export const language: string = getSiteConfig('language', 'en')
 
@@ -139,6 +140,7 @@ export const api = {
 export const site: Site = {
   domain,
   name,
+  parentPages,
   rootNotionPageId,
   rootNotionSpaceId,
   description

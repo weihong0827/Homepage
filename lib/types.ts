@@ -25,6 +25,7 @@ export interface Site {
   name: string
   domain: string
 
+  parentPages: string[]
   rootNotionPageId: string
   rootNotionSpaceId: string
 
