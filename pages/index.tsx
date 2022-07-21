@@ -82,7 +82,7 @@ const Home: NextPage = () => {
             He is currently working on a quiz platform for the school&apos;s
             physics department build on django rest framework and vue. He has
             recently worked on a webapp called{' '}
-            <NextLink href='/projects/sutdfolio'>
+            <NextLink href='/sutdfolio-ef02a32a4e3a4aae8418986905da9868'>
               <Link>SUTDfolio</Link>
             </NextLink>{' '}
             for the SUTD students to demostrate the fantastic projects that they
