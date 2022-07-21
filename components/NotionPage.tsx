@@ -7,6 +7,7 @@ import { useRouter } from 'next/router'
 import { useSearchParam } from 'react-use'
 import BodyClassName from 'react-body-classname'
 import { PageBlock } from 'notion-types'
+import { useColorMode } from '@chakra-ui/react'
 
 import TweetEmbed from 'react-tweet-embed'
 
@@ -177,7 +178,10 @@ export const NotionPage: React.FC<types.PageProps> = ({
   // lite mode is for oembed
   const isLiteMode = lite === 'true'
 
-  const { isDarkMode } = useDarkMode()
+  // const { isDarkMode } = useDarkMode()
+  const { colorMode } = useColorMode()
+  const isDarkMode = colorMode === 'dark'
+  console.log('colorMode', isDarkMode, colorMode)
 
   const siteMapPageUrl = React.useMemo(() => {
     const params: any = {}

@@ -24,7 +24,10 @@ import * as Fathom from 'fathom-client'
 import type { AppProps } from 'next/app'
 import { useRouter } from 'next/router'
 import posthog from 'posthog-js'
-
+import { ChakraProvider } from '@chakra-ui/react'
+import Layout from '../components/layout/main'
+import theme from '../lib/theme'
+import { AnimatePresence } from 'framer-motion'
 import { bootstrap } from 'lib/bootstrap-client'
 import {
   isServer,
@@ -66,6 +69,14 @@ export default function App({ Component, pageProps }: AppProps) {
       router.events.off('routeChangeComplete', onRouteChangeComplete)
     }
   }, [router.events])
-
-  return <Component {...pageProps} />
+  return (
+    <ChakraProvider theme={theme}>
+      {/* <Fonts/> */}
+      <Layout router={router}>
+        <AnimatePresence exitBeforeEnter initial={true}>
+          <Component {...pageProps} key={router.route} />
+        </AnimatePresence>
+      </Layout>
+    </ChakraProvider>
+  )
 }
