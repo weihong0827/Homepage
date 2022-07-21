@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { chakra, shouldForwardProp } from '@chakra-ui/react'
 import { Transition } from 'framer-motion'
 const StyledDiv = chakra(motion.div, {
-  shouldForwardProp: prop => {
+  shouldForwardProp: (prop) => {
     return shouldForwardProp(prop) || prop === 'transition'
   }
 })
@@ -14,10 +14,10 @@ const Section = ({
   children: React.ReactNode
   delay: number
 }) => {
-  const transition: Transition = {
-    duration: 0.8,
-    delay: delay
-  }
+  // const transition: Transition = {
+  //   duration: 0.8,
+  //   delay: delay
+  // }
 
   return (
     <StyledDiv
