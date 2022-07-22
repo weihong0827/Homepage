@@ -14,7 +14,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'posts',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'qiuweihong.tech',
   author: 'Qiu Weihong',
 
   // open graph metadata (optional)
@@ -46,7 +46,9 @@ export default siteConfig({
   // example:
   //
   pageUrlOverrides: {
-    '/sutdfolio': 'ef02a32a4e3a4aae8418986905da9868'
+    '/sutdfolio': 'ef02a32a4e3a4aae8418986905da9868',
+    '/quizora': 'b7925f82310248328ec384309cbcd0f8',
+    '/ascenda-loyalty-point-system': '4796ed9a2856489a9f6066f2075dc5a0'
   },
   // pageUrlOverrides: null,
 
