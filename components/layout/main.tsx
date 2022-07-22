@@ -15,8 +15,8 @@ const Main = ({
     <Box as='main' pb={8}>
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta property='og:site_name' content="Qiu Weihong\'s homepage" />
-        <meta property='og:title' content="Qiu Weihong\'s homepage" />
+        <meta property='og:site_name' content="Qiu Weihong's homepage" />
+        <meta property='og:title' content="Qiu Weihong's homepage" />
         <meta property='og:type' content='website' />
 
         <meta
