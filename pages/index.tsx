@@ -28,7 +28,7 @@ const Home: NextPage = () => {
           justifyContent='center'
         >
           {' '}
-          Hello I&apos;m a aspiring full-stack developer in SUTD
+          Hello I&apos;m an aspiring full-stack developer in SUTD
         </Box>
         <Box display={{ md: 'flex' }} className='nes-text is-primary'>
           <Box flexGrow={1}>
