@@ -48,7 +48,8 @@ export default siteConfig({
   pageUrlOverrides: {
     '/sutdfolio': 'ef02a32a4e3a4aae8418986905da9868',
     '/quizora': 'b7925f82310248328ec384309cbcd0f8',
-    '/ascenda-loyalty-point-system': '4796ed9a2856489a9f6066f2075dc5a0'
+    '/ascenda-loyalty-point-system': '4796ed9a2856489a9f6066f2075dc5a0',
+    '/sutdfolio-android': 'edea7d25c1e94a96a93f17fd5e33e7cf'
   },
   // pageUrlOverrides: null,
 
