@@ -39,7 +39,7 @@ const Home: NextPage = () => {
                 Qiu Weihong
               </Heading>
               <p>
-                Developer/ Fulltime student/ Photgrapher/ Sport enthusiast/ PC
+                Developer/ Fulltime student/ Photographer/ Sport enthusiast/ PC
                 lover
               </p>
             </Box>
@@ -75,25 +75,26 @@ const Home: NextPage = () => {
               About Me
             </Heading>
             <Paragraph>
-              Qiu Weihong is a term 5 ISTD student in SUTD, who is passionate
-              about software enginerring and have picked up a few skills and
-              working on a few projects currently. He is confident with Django,
-              nodejs, react, and vue for web development and currently learning
-              Spring Boot for Java.
+              Qiu Weihong is currently in Term 7 of his ISTD studies at SUTD, where he continues to deepen his expertise in software engineering. Proficient in a variety of web development technologies, including Django, Node.js, React, and Vue, Weihong is also expanding his skill set to include Spring Boot for Java.
+            </Paragraph>
+            {/* <Paragraph> */}
+            {/*   He is currently working on a quiz platform for the school&apos;s */}
+            {/*   physics department build on django rest framework and vue. He has */}
+            {/*   recently worked on a webapp called{' '} */}
+            {/*   <NextLink href='/sutdfolio'> */}
+            {/*     <Link>SUTDfolio</Link> */}
+            {/*   </NextLink>{' '} */}
+            {/*   for the SUTD students to demostrate the fantastic projects that */}
+            {/*   they have done during their school terms.{' '} */}
+            {/* </Paragraph> */}
+            <Paragraph>
+              Presently, Weihong is leading the development of Qbot, a Teams bot designed to enhance educational experiences through generative AI. Engineered atop the open-source project Quivr, Qbot possesses the capability to generate answers based on a localized knowledge base. The platform also encourages collaborative learning by allowing students to contribute their versions of answers, which are integrated into the existing knowledge base upon instructor approval.
             </Paragraph>
             <Paragraph>
-              He is currently working on a quiz platform for the school&apos;s
-              physics department build on django rest framework and vue. He has
-              recently worked on a webapp called{' '}
-              <NextLink href='/sutdfolio'>
-                <Link>SUTDfolio</Link>
-              </NextLink>{' '}
-              for the SUTD students to demostrate the fantastic projects that
-              they have done during their school terms.{' '}
+              In addition to his project-based contributions, Weihong is currently delving into the domains of distributed systems and network security, thereby broadening his technical acumen. He is also exploring the transformative possibilities offered by generative AI in various applications.
             </Paragraph>
             <Paragraph>
-              He really enjoy software development because he can create really
-              amazing features and products that impact people&apos;s life!
+              He finds immense satisfaction in seeing projects evolve from mere concepts to tangible solutions that solve real-world problems. What fuels his enthusiasm for software development is the opportunity to craft impactful features and products that significantly improve the quality of people's lives.
             </Paragraph>
             <Box display={'flex'} justifyContent='space-evenly' my={4}>
               <NextLink href='/posts'>
