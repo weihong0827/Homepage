@@ -94,7 +94,7 @@ const Home: NextPage = () => {
               In addition to his project-based contributions, Weihong is currently delving into the domains of distributed systems and network security, thereby broadening his technical acumen. He is also exploring the transformative possibilities offered by generative AI in various applications.
             </Paragraph>
             <Paragraph>
-              He finds immense satisfaction in seeing projects evolve from mere concepts to tangible solutions that solve real-world problems. What fuels his enthusiasm for software development is the opportunity to craft impactful features and products that significantly improve the quality of people's lives.
+              He finds immense satisfaction in seeing projects evolve from mere concepts to tangible solutions that solve real-world problems. What fuels his enthusiasm for software development is the opportunity to craft impactful features and products that significantly improve the quality of people&apos;s lives.
             </Paragraph>
             <Box display={'flex'} justifyContent='space-evenly' my={4}>
               <NextLink href='/posts'>
