@@ -127,6 +127,19 @@ const Home: NextPage = () => {
               Distinciton
             </BioSeciton>
             <BioSeciton>
+              <BioYear>2022</BioYear>
+              Exchange in Tampera University, Finland
+            </BioSeciton>
+            <BioSeciton>
+              <BioYear>2023</BioYear>
+              Intern at Reluvate Technologies
+            </BioSeciton>
+            <BioSeciton>
+              <BioYear>2023</BioYear>
+              Summer Program in University of California, Berkeley
+            </BioSeciton>
+
+            <BioSeciton>
               <BioYear>2020 to Present</BioYear>
               Studying Computer Science and Design course in Singapore
               Univerisity of Technology and Design(SUTD)
